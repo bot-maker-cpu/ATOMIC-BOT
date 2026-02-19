@@ -160,7 +160,7 @@ def main_menu():
 
         # ---------------- OPTION 2 ----------------
         elif choice == '2':
-            print(f"{YELLOW}Features: AI RPG, Flag Game, Timezone Sync, Anime GIFs, XP System.{RESET}")
+            print(f"{YELLOW}Features: AI RPG, Flag Game, Timezone Sync, Anime GIFs, XP System,The greatest anime bot with featuresno one have,setup timezone,Detectiverpg,counting game,hide and seek,ai chatbot,welcome dm,verify dm,Create role,Give role,RGB role.{RESET}")
 
         # ---------------- OPTION 3 ----------------
         elif choice == '3':
