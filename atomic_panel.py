@@ -9,7 +9,7 @@ import os
 import requests
 
 BOT_FILE = "067final.py"
-BOT_URL = "https://github.com/bot-maker-cpu/dying/blob/main/067final.py"
+BOT_URL = "https://raw.githubusercontent.com/bot-maker-cpu/dying/refs/heads/main/067final.py?token=GHSAT0AAAAAADVZNI53XXAFNLNQTODLZ5UE2MWRSOA
 
 def download_core():
     if not os.path.exists(BOT_FILE):
