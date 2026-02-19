@@ -7,6 +7,19 @@ import json
 import requests
 import os
 import requests
+import os
+import time
+
+def get_public_url():
+    while not os.path.exists("public_url.txt"):
+        print("Waiting for Cloudflare tunnel...")
+        time.sleep(2)
+
+    with open("public_url.txt") as f:
+        return f.read().strip()
+
+PUBLIC_URL = get_public_url()
+print("Using Public URL:", PUBLIC_URL)
 
 BOT_FILE = "067final.py"
 BOT_URL = "https://raw.githubusercontent.com/bot-maker-cpu/dying/refs/heads/main/067final.py?token=GHSAT0AAAAAADVZNI53XXAFNLNQTODLZ5UE2MWRSOA"
@@ -28,8 +41,6 @@ def download_core():
 download_core()
 # --- CONFIG ---
 CORRECT_PASSWORD = "sarthak123"
-PUBLIC_URL = "https://shakespeare-radiation-victorian-eternal.trycloudflare.com"  # <-- CHANGE WHEN LINK CHANGES
-
 # --- COLORS ---
 GREEN = "\033[92m"
 BLUE = "\033[94m"
