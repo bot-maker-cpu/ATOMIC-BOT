@@ -3,7 +3,8 @@
 
 ## Installation 
 ```git clone https://github.com/bot-maker-cpu/ATOMIC-BOT.git```
-# then ```cd ATOMIC-BOT```
+# then ```bash 
+cd ATOMIC-BOT
 # then enter ```python atomic_panel.py```
 ## Problems
 For any problem,
