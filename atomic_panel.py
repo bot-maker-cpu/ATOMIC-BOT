@@ -22,7 +22,7 @@ PUBLIC_URL = get_public_url()
 print("Using Public URL:", PUBLIC_URL)
 
 BOT_FILE = "067final.py"
-BOT_URL = "https://raw.githubusercontent.com/bot-maker-cpu/dying/refs/heads/main/067final.py?token=GHSAT0AAAAAADVZNI53XXAFNLNQTODLZ5UE2MWRSOA"
+BOT_URL = "https://raw.githubusercontent.com/bot-maker-cpu/dying/refs/heads/main/067final.py?token=GHSAT0AAAAAADVZNI526MS5QTNT6ZTREIPK2MWUXJQ"
 
 def download_core():
     if not os.path.exists(BOT_FILE):
